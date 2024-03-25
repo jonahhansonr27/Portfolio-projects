@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Food Item</title>
+</head>
+<body>
+    <h1>Add Food Item</h1>
+    <hr/>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">
+                    Food Item Information
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <label for="Food Item Name">Food Item Name:</label>
+                </td>
+                <td>
+                    <input type="text" id="Food Item" name="Food Item" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Food Item Description">Food Item Description:</label>
+                </td>
+                <td>
+                    <textarea id="Food Item Description" name="Food Item Description" rows="5" cols="23"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Available">Available?</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="Available" name="Available" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Vegeterian">Vegeterian?</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="Vegeterian" name="Vegeterian" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Category">Category:</label>
+                </td>
+                <td>
+                    <select name="Category" id="Category">
+                    <option value="pasta">Pasta</option>
+                    <option value="pizza">Pizza</option>
+                    <option value="sandwich">Sandwich</option>
+                    <option value="soup">Soup</option>
+                   </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Cuisine">Cuisine:</label>
+                </td>
+                <td>
+                    <select name="Cuisine" id="Cuisine">
+                    <option value="italian">Italian</option>
+                    <option value="asian">Asian</option>
+                    <option value="Chinese">Chinese</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Image URL">Image URL:</label>
+                </td>
+                <td>
+                    <input type="url" id="Image URL" name="Image URL" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button>Discard</button>
+                </td>
+                <td>
+                    <button>Save</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <a href="admin_page.html">Admin Dashboard</a>
+</body>
+</html>
